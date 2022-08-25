@@ -14,15 +14,15 @@ body {
   grid-template-columns: repeat(5, auto-fit);
   grid-template-rows: repeat(6, 5vw);
   grid-template-areas:
-    'merah hijau hijau ungu ungu'
-    'merah pink hijaumuda hijaumuda hijaumuda'
-    'merah pink biru birutua birutua'
-    'jingga pink biru birutua birutua'
-    'jingga kuning kuning birutua birutua'
-    'jingga kuning kuning birutua birutua';
+    'merah  hijau   hijau     ungu      ungu'
+    'merah  pink    hijaumuda hijaumuda hijaumuda'
+    'merah  pink    biru      birutua   birutua'
+    'jingga pink    biru      birutua   birutua'
+    'jingga kuning  kuning    birutua   birutua'
+    'jingga kuning  kuning    birutua   birutua';
 }
 
-.container>div {
+.container > div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,12 +30,10 @@ body {
 
 .merah {
   grid-area: merah;
-  background-color: rgb(255, 50, 50);
 }
 
 .hijau {
   grid-area: hijau;
-  background-color: rgb(0, 190, 0);
 }
 
 .hijau-muda {
@@ -44,12 +42,10 @@ body {
 
 .ungu {
   grid-area: ungu;
-  background-color: rgb(180, 0, 180);
 }
 
 .pink {
   grid-area: pink;
-  background-color: pink;
 }
 
 .jingga {
@@ -58,17 +54,14 @@ body {
 
 .kuning {
   grid-area: kuning;
-  background-color: rgb(255, 255, 60);
 }
 
 .biru {
   grid-area: biru;
-  background-color: rgb(91, 91, 255);
 }
 
 .biru-tua {
   grid-area: birutua;
-  background-color: rgba(0, 0, 255, 0.558)
 }
 
 .text-center {
@@ -84,6 +77,33 @@ h1 {
   color: yellow;
 }
 
+/* Background */
+
+.bg-merah {
+  background-color: rgb(255, 50, 50);
+}
+
+.bg-hijau {
+  background-color: rgb(0, 190, 0);
+}
+
+.bg-ungu {
+  background-color: rgb(180, 0, 180);
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-kuning {
+  background-color: rgb(255, 255, 60);
+}
+
+.bg-biru-tua {
+  background-color: rgb(61, 61, 252);
+}
+
 .bg-jingga {
   background-color: rgb(255, 185, 55);
 }
+

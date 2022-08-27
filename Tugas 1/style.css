@@ -77,6 +77,14 @@ h1 {
   color: yellow;
 }
 
+.b-gray {
+  border: 1px solid gray;
+}
+
+.b-kuning {
+  border: 1px solid yellow;
+}
+
 /* Background */
 
 .bg-merah {
